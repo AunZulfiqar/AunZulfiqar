@@ -60,3 +60,21 @@ bottom of the file — they're plain text, no tooling required.
 
 GitHub caches images through its Camo proxy, so an updated `hero.svg` can take a
 few minutes to appear. A hard refresh usually clears it.
+
+## Known provider issues (as of first push)
+
+`github-readme-stats.vercel.app` — the service behind the "GitHub stats" and
+"top languages" cards on most profile READMEs — is currently returning
+`DEPLOYMENT_PAUSED`. Public mirrors are paused too, or run without an API token
+and render an error box instead of a card.
+
+Both cards are therefore commented out in `README.md`, with the exact markup kept
+inline so you can paste them back the moment the service recovers. Check with:
+
+```bash
+curl -s "https://github-readme-stats.vercel.app/api?username=AunZulfiqar" | head -5
+```
+
+The activity-graph image is commented out for a different reason: with a sparse
+contribution history it draws a flat line with one spike. Re-enable it when the
+graph has some shape to it — the markup is in the same comment block.
