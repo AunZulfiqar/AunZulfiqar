@@ -123,8 +123,8 @@ for in an incident report, not just trusted.
 
 ```text
 * commit  national-cert / cybersecurity-intern      (HEAD -> jul 2026 · present)
-| Author: Muhammad Aun Bin Zulfiqar
-| Team:   Incident Management & Threat Intelligence  ·  remote
+| Org:    National CERT Directorate, Pakistan  ·  remote
+| Team:   Incident Management & Threat Intelligence
 |
 |     Penetration testing labs against Metasploitable2 using Kali Linux and
 |     the Metasploit Framework — eight vulnerabilities documented in formal
@@ -134,7 +134,8 @@ for in an incident report, not just trusted.
 |     self-configured Kali VM environment.
 |
 * commit  punjab-police / forensics-intern          (feb 2026 -> apr 2026)
-| Team:   Cyber Security & Digital Forensics  ·  Lahore
+| Org:    Punjab Police  ·  Lahore, Pakistan
+| Team:   Cyber Security & Digital Forensics
 |
 |     Rotated across 10 law-enforcement departments — cybercrime,
 |     counter-terrorism, digital forensics, IT operations.
@@ -143,7 +144,7 @@ for in an incident report, not just trusted.
 |     Evidence management and inter-agency coordination on major investigations.
 |
 * commit  lgu / bsc-digital-forensics               (2022 -> 2026)
-| School: Lahore Garrison University
+| Org:    Lahore Garrison University  ·  Lahore, Pakistan
 |
 |     B.Sc. Digital Forensics & Cyber Security.
 |     Final year project: AI-powered Insider Threat Detection System.
