@@ -1,16 +1,16 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/AunZulfiqar/AunZulfiqar/main/hero.svg" width="100%" alt="Muhammad Aun Bin Zulfiqar — Full-Stack Engineer · Security Engineering · Lahore, Pakistan" />
+<img src="https://raw.githubusercontent.com/AunZulfiqar/AunZulfiqar/main/hero.svg" width="100%" alt="Muhammad Aun Bin Zulfiqar — Cyber Security Analyst · SOC &amp; Digital Forensics · Lahore, Pakistan" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3200&pause=900&color=3B82F6&center=true&vCenter=true&width=860&height=46&lines=I+ship+products+%E2%80%94+then+I+try+to+break+them;Full-stack+by+trade+%C2%B7+security-minded+by+default;Anomaly+detection%2C+clean+interfaces%2C+no+loose+ends" alt="Ship products, then try to break them. Full-stack by trade, security-minded by default." />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3400&pause=900&color=3B82F6&center=true&vCenter=true&width=880&height=46&lines=Insider+threats+don%27t+trip+rules+%E2%80%94+they+drift;SOC+Operations+%C2%B7+Digital+Forensics+%C2%B7+Threat+Detection;Blue+team+by+training+%C2%B7+I+build+the+tooling+too" alt="Insider threats do not trip rules, they drift. SOC Operations, Digital Forensics, Threat Detection. Blue team by training, I build the tooling too." />
 
 <br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=AunZulfiqar&label=Profile+Views&color=3B82F6&style=for-the-badge" alt="Profile views" />
 &nbsp;
-<img src="https://img.shields.io/badge/Open%20to-Full--Time%20Roles-3B82F6?style=for-the-badge&logo=github&logoColor=white&labelColor=04070F" alt="Open to full-time roles" />
+<img src="https://img.shields.io/badge/Open%20to-SOC%20%26%20Security%20Analyst%20Roles-3B82F6?style=for-the-badge&logo=github&logoColor=white&labelColor=04070F" alt="Open to SOC and security analyst roles" />
 &nbsp;
 <img src="https://img.shields.io/badge/%F0%9F%93%8D%20Lahore%2C%20Pakistan-04070F?style=for-the-badge&labelColor=04070F" alt="Based in Lahore, Pakistan" />
 
@@ -25,44 +25,62 @@
 </div>
 
 > [!NOTE]
-> **`principle`** → a feature isn't done when it works. It's done when it **handles the input you didn't expect** — and you've written the thing that proves it.
+> **`principle`** → rule-based detection catches what you already thought of. I'm interested in the rest — **the behaviour that drifts slowly enough to look normal.**
 
 ---
 
 ## `> whoami`
 
 ```bash
-┌──(aun㉿dev)-[~]
+┌──(aun㉿soc)-[~]
 └─$ cat about.txt
 
-Name      : Muhammad Aun Bin Zulfiqar
-Handle    : AunZulfiqar
-Based     : Lahore, Pakistan
-Track     : Full-stack engineering  ·  Security engineering
-Building  : Production web apps (Next.js / React / TS)
-            + ML-driven threat detection (Python / scikit-learn)
-Interest  : Anomaly detection · UEBA · design systems · AI tooling
-Status    : Open to full-time roles
+Name       : Muhammad Aun Bin Zulfiqar
+Handle     : AunZulfiqar
+Based      : Lahore, Pakistan
+Degree     : B.Sc. Digital Forensics & Cyber Security — LGU, 2022–2026
+Focus      : SOC Operations · Digital Forensics · Incident Response
+             Threat Detection & Hunting · Behavioural Analytics
+Frameworks : MITRE ATT&CK · NIST SP 800-61 · Cyber Kill Chain · ISO/IEC 27001
+Built      : AI-powered Insider Threat Detection System (final year project)
+Also       : I build the tooling too — Flask dashboards, and web apps off-clock
+Seeking    : SOC Analyst · Cyber Security Analyst · Digital Forensics Analyst
 ```
 
 ---
 
-## `> ./stack.sh --list`
+## `> ./arsenal.sh --list`
 
 <div align="center">
 
-**Core**
+**Security & Forensics**
 
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,tailwind,python,postgres&theme=dark" alt="TypeScript, JavaScript, React, Next.js, Node.js, Tailwind, Python, PostgreSQL" />
+`Splunk` · `Wireshark` · `Nmap` · `Metasploit` · `Burp Suite` · `OWASP ZAP` · `Snort` · `Autopsy` · `FTK Imager`
 
-**Systems · Security · Tooling**
+**Operations & Analysis**
 
-<img src="https://skillicons.dev/icons?i=linux,kali,bash,docker,git,githubactions,vercel,figma&theme=dark" alt="Linux, Kali, Bash, Docker, Git, GitHub Actions, Vercel, Figma" />
+`Alert Triage` · `Log Analysis` · `IOC Analysis` · `Threat Hunting` · `Root Cause Analysis`
+`Packet Analysis` · `Chain of Custody` · `Evidence Preservation` · `Vulnerability Assessment`
+
+**Frameworks & Standards**
+
+`MITRE ATT&CK` · `NIST SP 800-61` · `Cyber Kill Chain` · `ISO/IEC 27001` · `ISACA Security Principles`
 
 <br/>
 
-`Anomaly Detection` · `UEBA` · `Isolation Forest` · `scikit-learn` · `Flask` · `Threat Modeling`
-`Design Systems` · `Framer Motion` · `Zustand` · `Server Components` · `Web Accessibility`
+**Languages & Systems**
+
+<img src="https://skillicons.dev/icons?i=python,bash,mysql,java,cpp,html,css,linux&theme=dark" alt="Python, Bash, SQL, Java, C++, HTML, CSS, Linux" />
+
+**Environments & Build**
+
+<img src="https://skillicons.dev/icons?i=kali,ubuntu,windows,apple,flask,sklearn,git,vscode&theme=dark" alt="Kali, Ubuntu, Windows, macOS, Flask, scikit-learn, Git, VS Code" />
+
+<br/>
+
+<sub><b>Off the security track</b> — I build web apps too, which is why the Insider Threat platform ships with its own dashboard rather than a CSV export.</sub>
+
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind&theme=dark" height="34" alt="TypeScript, React, Next.js, Tailwind" />
 
 </div>
 
