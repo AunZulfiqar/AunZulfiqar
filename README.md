@@ -18,7 +18,7 @@
 
 <a href="mailto:aunzulfiqar121@gmail.com"><img src="https://img.shields.io/badge/Email-04070F?style=for-the-badge&logo=gmail&logoColor=3B82F6" alt="Email" /></a>
 &nbsp;
-<a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-04070F?style=for-the-badge&logo=linkedin&logoColor=22D3EE" alt="LinkedIn" /></a>
+<a href="https://linkedin.com/in/aunzulfiqar"><img src="https://img.shields.io/badge/LinkedIn-04070F?style=for-the-badge&logo=linkedin&logoColor=22D3EE" alt="LinkedIn" /></a>
 &nbsp;
 <a href="https://github.com/AunZulfiqar"><img src="https://img.shields.io/badge/GitHub-04070F?style=for-the-badge&logo=github&logoColor=3B82F6" alt="GitHub" /></a>
 
@@ -68,58 +68,85 @@ Status    : Open to full-time roles
 
 ---
 
-## `> cat work/spotlight.md`
+## `> ls projects/`
 
-### 🛡️ Insider Threat Detection System
+### 🛡️ AI-Powered Insider Threat Detection System &nbsp;·&nbsp; <sub>final year project</sub>
 
-A **UEBA** engine that flags insider risk from raw user activity, trained on the **CERT r4.2** dataset.
+Malicious insiders don't trip rules — they drift. This is a hybrid detection platform that
+catches that drift with **behavioural analytics** instead of static signatures, built to cover
+the gap traditional rule-based detection leaves open.
 
-`Isolation Forest` anomaly scoring **+** keyword matching **+** contextual risk weighting → a single explainable
-risk score per user, served through a Flask dashboard.
+```
+detection    Isolation Forest anomaly scoring  +  rule-based risk analysis
+telemetry    authentication · file access · email · web · USB activity
+features     27 engineered behavioural features
+scoring      four-level risk framework
+dataset      Carnegie Mellon CERT r4.2 Insider Threat Dataset
+delivery     Flask web app — real-time dashboard, alert management,
+             forensic investigation views for SOC triage
+```
 
-*Unsupervised where labels don't exist, rule-backed where they do — so every score can be argued for.*
+Unsupervised where no labels exist, rule-backed where they do — so every score can be argued
+for in an incident report, not just trusted.
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,flask,sqlite,sklearn&theme=dark" alt="Python, Flask, SQLAlchemy, scikit-learn" />
+
+<br/>
 
 <a href="https://github.com/AunZulfiqar/Insider-Threat-Detection-System"><img src="https://img.shields.io/badge/View%20Repository-3B82F6?style=for-the-badge&logo=github&logoColor=white&labelColor=04070F" alt="View the Insider Threat Detection System repository" /></a>
 
----
-
-## `> ls projects/`
-
-| Project | What it is | Stack |
-|---|---|---|
-| 🛡️ [**Insider Threat Detection**](https://github.com/AunZulfiqar/Insider-Threat-Detection-System) | UEBA system scoring insider risk on CERT r4.2 — Isolation Forest + contextual rules | `Python` `scikit-learn` `Flask` |
-| 🕌 **NOOR — Storefront** | Made-to-order abaya label. Statically prerendered, cart persists across reloads, motion layer built from scratch | `Next.js 16` `React 19` `TS` `Zustand` |
-| 🤖 **Agent Tooling** | Claude Code skills & agent orchestration — automating the boring half of development | `TypeScript` `Node` `MCP` |
-
-<!-- Add a project: copy a row above, keep the three columns. -->
+</div>
 
 ---
 
 ## `> git log --experience`
 
 ```text
-* commit  open-to-work                     (HEAD -> main)
-| Author: Aun Bin Zulfiqar
-|     Available for full-time roles — full-stack, security, or both
+* commit  national-cert / cybersecurity-intern      (HEAD -> jul 2026 · present)
+| Author: Muhammad Aun Bin Zulfiqar
+| Team:   Incident Management & Threat Intelligence  ·  remote
 |
-* commit  noor/storefront                  (production web)
-|     Next.js 16 · React 19 · design tokens · Framer Motion · Zustand
+|     Penetration testing labs against Metasploitable2 using Kali Linux and
+|     the Metasploit Framework — eight vulnerabilities documented in formal
+|     lab reports.
+|     Technical incident reports mapped to MITRE ATT&CK and NIST SP 800-61.
+|     Vulnerability scanning and web application testing with OWASP ZAP in a
+|     self-configured Kali VM environment.
 |
-* commit  insider-threat-detection         (security · ML)
-|     UEBA on CERT r4.2 — Isolation Forest, contextual risk scoring
+* commit  punjab-police / forensics-intern          (feb 2026 -> apr 2026)
+| Team:   Cyber Security & Digital Forensics  ·  Lahore
 |
-* commit  agent-tooling                    (developer experience)
-|     Claude Code skills, agent orchestration, workflow automation
+|     Rotated across 10 law-enforcement departments — cybercrime,
+|     counter-terrorism, digital forensics, IT operations.
+|     CDR analysis, digital evidence handling, chain-of-custody documentation.
+|     Cybersecurity assessments of surveillance and digital policing systems.
+|     Evidence management and inter-agency coordination on major investigations.
+|
+* commit  lgu / bsc-digital-forensics               (2022 -> 2026)
+| School: Lahore Garrison University
+|
+|     B.Sc. Digital Forensics & Cyber Security.
+|     Final year project: AI-powered Insider Threat Detection System.
 ```
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/%F0%9F%93%9C%20ISACA-CISA%20%C2%B7%20Certificate%20of%20Participation-3B82F6?style=for-the-badge&labelColor=04070F" alt="ISACA CISA Certificate of Participation — IS audit, control and security fundamentals" />
+&nbsp;
+<img src="https://img.shields.io/badge/%F0%9F%93%9C%20OPSWAT%20Academy-ICIP-22D3EE?style=for-the-badge&labelColor=04070F" alt="OPSWAT Academy — Introduction to Critical Infrastructure Protection" />
+
+</div>
 
 <details>
 <summary><b>&nbsp;What I'm working on now →</b></summary>
 
 <br/>
 
-- **Shipping** — polishing production Next.js work: accessibility, prerendering, motion that respects `prefers-reduced-motion`
-- **Learning** — detection engineering beyond anomaly scores: threat modeling, log pipelines, MITRE ATT&CK mapping
-- **Exploring** — agent tooling and the practical limits of AI-assisted development
+- **Practising** — pentest labs and incident write-ups mapped to MITRE ATT&CK and NIST SP 800-61
+- **Deepening** — SIEM work in Splunk: alert triage, log analysis, IOC pivoting, root-cause write-ups
+- **Extending** — the Insider Threat platform beyond Isolation Forest, toward detections that explain their own scores
 
 </details>
 
